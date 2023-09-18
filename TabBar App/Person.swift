@@ -10,10 +10,10 @@ import Foundation
 // MARK: - Person
 
 struct Person {
-    let firstName: String
-    let lastName: String
-    let email: String
-    let phone: String
+    var firstName: String
+    var lastName: String
+    var email: String
+    var phone: String
 }
 
 // MARK: - PersonData
