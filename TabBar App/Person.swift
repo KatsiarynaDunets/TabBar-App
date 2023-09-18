@@ -32,7 +32,7 @@ struct PersonData {
 
         for index in 0 ..< firstNames.count {
             let person = Person(firstName: firstNames[safe: index] ?? "No data",
-                                lastName: lastNames[safe: index] ?? "No data",
+                                lastName: lastName[safe: index] ?? "No data",
                                 email: emails[safe: index] ?? "No data",
                                 phone: phones[safe: index] ?? "No data")
             persons.append(person)

@@ -118,6 +118,7 @@
                                         <constraint firstItem="zdu-So-wcS" firstAttribute="centerY" secondItem="qtZ-K6-X0Y" secondAttribute="centerY" id="NGR-WS-n96"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" id="COg-m4-O1J">
                                 <rect key="frame" x="0.0" y="93.666667938232422" width="393" height="43.666667938232422"/>

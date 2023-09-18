@@ -24,7 +24,7 @@ class Recents: UITableViewController {
     // Использование метода для присваивания заголовка секции
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let person = persons[section]
-        return person.lastName + " " + person.lastName
+        return person.firstName + " " + person.lastName
     }
     
     /// Задаем высоту хедера секции
